@@ -15,3 +15,7 @@
 .ant-layout-footer {
   text-align: right;
 }
+
+.ant-layout-content {
+  padding: 0 20px;
+}
