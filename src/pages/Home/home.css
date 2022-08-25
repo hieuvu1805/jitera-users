@@ -1,0 +1,17 @@
+.LoadingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+}
+
+.Empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+}
+
+.ant-layout-footer {
+  text-align: right;
+}
