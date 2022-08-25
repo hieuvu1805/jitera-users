@@ -1,0 +1,63 @@
+.UserCard {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ded8d8;
+}
+
+.UserCard:hover {
+  box-shadow: 2px 2px 10px 0 grey;
+}
+
+.UserCard .ant-image {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+}
+
+.UserCard .ant-image img {
+  max-width: 60%;
+}
+
+.UserCard__detail {
+  padding: 20px;
+}
+
+.UserCard__name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.UserCard__footer {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ded8d8;
+  border-bottom: 1px solid #ded8d8;
+}
+
+.UserCard__footer-item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px 0;
+  font-size: 17px;
+}
+.UserCard__footer-item:hover {
+  color: red;
+}
+
+.UserCard__footer-item--red {
+  color: red;
+}
+
+.UserCard__footer-item--red:hover {
+  color: #000;
+}
+
+.UserCard__footer-item:not(:last-child) {
+  border-right: 1px solid #ded8d8;
+}
